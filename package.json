@@ -1,0 +1,20 @@
+{
+  "name": "economy-trade-qa-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "convert:excel": "node scripts/convert-excel.js"
+  },
+  "dependencies": {
+    "next": "^14.2.23",
+    "pg": "^8.13.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {},
+  "type": "module"
+}
